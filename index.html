@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Screen Coloring</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="tracking-min.js"></script>
+    <script src="script.js"></script>
+    <style>
+      #container {
+      margin: 0px auto;
+      border: 10px #333 solid;
+      width: 1200px;
+      height: 700px;
+      background-color: lightgray;
+      }
+
+      video
+        {
+           transform: rotateY(180deg);
+           -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+           -moz-transform:rotateY(180deg); /* Firefox */
+        }
+        </style>
+
+  </head>
+
+  <body>
+ <h1> Screen Drawer 2.0 </h1>
+
+
+    <div id="container">
+
+       <video autoplay="true">
+       </video>
+       <h2 id="intro"><center>Draw on Your Screen</center></h2>
+       </div>
+
+
+  <button id="startdraw" onclick="myFunction()">Yellow</button>
+<
+script>
+  function myFunction(){
+    context.strokeStyle = "yellow";
+  }
+  </script>
+  </body>
+
+</html>

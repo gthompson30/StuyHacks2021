@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Tracking Color Blobs in Webcam Feed Using Tracking.js</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="tracking-min.js"></script>
+    <script src="script.js"></script>
+    <style>
+      #container {
+      margin: 0px auto;
+      border: 10px #333 solid;
+      width: 1200px;
+      height: 700px;
+      background-color: lightgray;
+      }
+      video
+        {
+           transform: rotateY(180deg);
+           -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+           -moz-transform:rotateY(180deg); /* Firefox */
+        }
+        </style>
+
+  </head>
+
+  <body>
+    <h1> Screen Drawer 2.0 </h1>
+
+    <div class="display" id="container">
+      <video id="webcam" width="1200" height="700" autoplay></video>
+      <canvas id="canvas" width="1200" height="700"></canvas>
+    </div>
+  <button id="startdraw" onclick="window.location.href = 'index.html';">Stop Drawing</button>
+  </body>
+
+</html>
