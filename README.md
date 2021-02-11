@@ -7,4 +7,4 @@ The app works by utilizing tracking.js, a JavaScript library allows you to do co
 - Noah Tam
 
 # Check out tracking.js!
-[trackingjs] (trackingjs.com)
+<a href="https://github.com/eduardolundgren/tracking.js/">The GitHub repo</a>
