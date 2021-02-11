@@ -5,3 +5,6 @@ The app works by utilizing tracking.js, a JavaScript library allows you to do co
 # People I worked with
 - Rebecca Bao
 - Noah Tam
+
+# Check out tracking.js!
+trackingjs.com
